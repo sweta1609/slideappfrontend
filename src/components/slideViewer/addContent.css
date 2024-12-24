@@ -1,0 +1,17 @@
+.newcontent {
+  background-color: white;
+  padding: 10px 15px;
+
+  box-shadow: 0 0 5px #cac9e6;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.newcontent-text {
+  margin-left: 5px;
+  margin-right: 5px;
+  font-weight: bold;
+  font-size: 12px;
+}

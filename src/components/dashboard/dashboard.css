@@ -1,0 +1,51 @@
+.dashboard-content {
+  flex-direction: column;
+}
+
+.dashbaord-btn-container {
+  width: 400px;
+  padding: 20px;
+
+  border-radius: 5px;
+  box-shadow: 0 0 5px #cac9e6;
+}
+
+.selection-btn-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.dashboard-btn {
+  position: relative;
+  background-color: #bed8fd;
+  width: 43%;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.select-btn-text {
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.dashboard-title-text {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.dashboard-subtitle-text {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.select-btn-icon {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}

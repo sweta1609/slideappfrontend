@@ -1,0 +1,83 @@
+.metricpopup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightgrey;
+}
+.metricpopup-wrapper {
+  position: absolute;
+  top: 80px;
+  background-color: #172230;
+  width: 420px;
+  height: 480px;
+  margin: auto;
+  z-index: 1;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+  overflow-y: scroll;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.metricpopup-wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.metricpopup-wrapper {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.metricpopup-search-item {
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+}
+.metricpopup-search-container {
+  width: 90%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 5px;
+  padding: 10px;
+  background-color: #2e4251;
+  border-radius: 5px;
+}
+.metricpopup-new-btn {
+  border-radius: 5px;
+  text-align: center;
+  width: 10%;
+  background-color: lightgrey;
+  color: black;
+  padding: 8px 10px;
+  margin-left: 10px;
+}
+.metricpopup-search-text {
+  color: lightgrey;
+  font-size: 16px;
+}
+
+.metricpopup-item {
+  width: 90%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 5px;
+  padding: 10px;
+  background-color: #0e142a;
+}
+
+.metricpopup-item-text {
+  color: white;
+  font-size: 16px;
+}
+.metricpopup-close {
+  width: 100%;
+  text-align: center;
+  color: lightgrey;
+}

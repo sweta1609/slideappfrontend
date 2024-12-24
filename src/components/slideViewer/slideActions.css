@@ -1,0 +1,6 @@
+.header-right-container {
+  width: 300px;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 30px;
+}
